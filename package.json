@@ -1,0 +1,15 @@
+{
+  "name": "mockup",
+  "version": "1.0.0",
+  "description": "Convert to Code",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Zyaan",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
+}
