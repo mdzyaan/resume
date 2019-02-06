@@ -4,7 +4,7 @@
   "description": "Convert to Code",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass sass/main.scss css/styles.css -w"
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
   },
   "author": "Zyaan",
   "license": "ISC",
