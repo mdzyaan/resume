@@ -1,0 +1,16 @@
+.detail {
+    padding: 3rem 5rem;
+    display: flex;
+
+    &__left {
+        width: 50%;
+        padding-right: 2rem;
+    }
+
+    &__right {
+        width: 50%;
+        padding-left: 2rem;
+    }
+
+
+}

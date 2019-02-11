@@ -8,6 +8,14 @@ html {
 }
 
 body {
-    background: $color-white;
+    background: $color-grey-light-1;
     box-sizing: border-box;
+    margin: 5rem auto;
+    max-width: 80rem;
+}
+
+.container {
+    background: $color-white;
+    max-width: 80rem;
+    box-shadow: 0rem 0rem 2rem rgba($color: $color-grey-dark-3, $alpha: 0.1)
 }

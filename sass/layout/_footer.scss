@@ -1,0 +1,21 @@
+.footer {
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    background: $color-grey-light-1;
+
+    &__item {
+        display: block;
+    }
+    &__text {
+        text-decoration: none;
+        color: $color-black;
+        vertical-align: middle;
+    }
+
+    &__icon {
+        vertical-align: middle;
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
