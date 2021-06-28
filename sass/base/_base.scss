@@ -17,5 +17,6 @@ body {
 .container {
     background: $color-white;
     max-width: 80rem;
+    min-width: 80rem;
     box-shadow: 0rem 0rem 2rem rgba($color: $color-grey-dark-3, $alpha: 0.1)
 }
