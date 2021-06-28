@@ -12,11 +12,18 @@ body {
     box-sizing: border-box;
     margin: 5rem auto;
     max-width: 80rem;
+    @media screen and (max-width: 800px) {
+        margin: auto;
+    }
 }
 
 .container {
     background: $color-white;
     max-width: 80rem;
     min-width: 80rem;
-    box-shadow: 0rem 0rem 2rem rgba($color: $color-grey-dark-3, $alpha: 0.1)
+    box-shadow: 0rem 0rem 2rem rgba($color: $color-grey-dark-3, $alpha: 0.1);
+
+    @media screen and (max-width: 800px) {
+        box-shadow: unset;
+    }
 }
